@@ -559,3 +559,4 @@ class PanelDataAgent(BaseEconometricAgent):
             print(f"  {var}: {stats['coefficient']:.4f}{significance} (SE: {stats['std_error']:.4f})")
         
         print(colored("\n" + "=" * 60, "cyan"))
+

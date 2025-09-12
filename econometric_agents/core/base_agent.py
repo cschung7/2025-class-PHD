@@ -336,3 +336,4 @@ class BaseEconometricAgent(ABC):
         self.conversation_history.append({"role": "assistant", "content": response})
         
         return response
+

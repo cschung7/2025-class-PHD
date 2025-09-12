@@ -841,3 +841,4 @@ class TimeSeriesAgent(BaseEconometricAgent):
     def _format_forecast_for_ai(self, results: Dict[str, Any]) -> str:
         """Format forecast results for AI"""
         return f"Forecast steps: {results['steps']}, Confidence level: {results.get('confidence_level', 'N/A')}"
+

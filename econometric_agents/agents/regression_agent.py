@@ -551,3 +551,4 @@ class RegressionAgent(BaseEconometricAgent):
                 print(f"  Jarque-Bera: {diagnostics['jarque_bera']['interpretation']}")
         
         print(colored("\n" + "=" * 50, "cyan"))
+

@@ -772,3 +772,4 @@ class MacroEconomicAgent(BaseEconometricAgent):
                 print(f"  Total macro variables identified: {total_vars}")
         
         print(colored("\n" + "=" * 50, "cyan"))
+
